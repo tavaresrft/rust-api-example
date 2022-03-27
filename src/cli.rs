@@ -8,7 +8,7 @@ pub struct Cli {
     #[structopt(long = "port", default_value = "8080")]
     pub port: u32,   
     
-    #[structopt(long = "model-path", default_value = "0.0.0.0")]
+    #[structopt(long = "model-path")]
     pub model_path: String,
 }
 
